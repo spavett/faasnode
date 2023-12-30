@@ -33,6 +33,6 @@ jobs:
 
       - name: Build functions only
         run: >
-          # OWNER="${{ env.REPO_OWNER }}" 
-          # TAG="${{ env.TAG }}"
+          OWNER="${{ env.REPO_OWNER }}" 
+          TAG="${{ env.TAG }}"
           faas-cli build

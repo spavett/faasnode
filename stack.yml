@@ -6,5 +6,5 @@ functions:
   nodefunc:
     lang: node16
     handler: ./nodefunc
-    image: ghcr.io/${OWNER:-spavett/nodefunc:${TAG:-latest}
+    image: ghcr.io/${OWNER:-spavett}/nodefunc:${TAG:-latest}
 
