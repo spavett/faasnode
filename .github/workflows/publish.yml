@@ -29,6 +29,7 @@ jobs:
       - name: Get TAG
         id: get_tag
         run: echo TAG=latest-dev >> $GITHUB_ENV
+              
       - name: Get Repo Owner
         id: get_repo_owner
         run: echo "REPO_OWNER=$(echo ${{ github.repository_owner }} | tr '[:upper:]' '[:lower:]')" > $GITHUB_ENV
